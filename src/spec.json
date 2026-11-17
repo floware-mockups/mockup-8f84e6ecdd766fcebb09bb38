@@ -1,0 +1,186 @@
+{
+  "title": "Registro presenze del laboratorio didattico",
+  "description": "Prototipo navigabile per registrare entrate, uscite e attività svolte durante le sessioni del laboratorio.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle sessioni e delle presenze registrate.",
+      "metrics": [
+        {
+          "label": "Sessioni in programma",
+          "value": "6"
+        },
+        {
+          "label": "Presenze registrate oggi",
+          "value": "14"
+        },
+        {
+          "label": "Uscite da completare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Sessione",
+        "Attività",
+        "Data",
+        "Presenze",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo – Carta in movimento",
+          "Piegature e forme",
+          "12/05/2026",
+          "8",
+          "Conclusa"
+        ],
+        [
+          "Vela – Piccoli circuiti",
+          "Costruzione di circuiti",
+          "13/05/2026",
+          "6",
+          "In corso"
+        ],
+        [
+          "Nubi – Colori e texture",
+          "Sperimentazione materica",
+          "14/05/2026",
+          "0",
+          "In programma"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-presenze",
+      "title": "Registro presenze",
+      "description": "Consulta e filtra le registrazioni di ingresso e uscita per partecipante e sessione.",
+      "metrics": [],
+      "columns": [
+        "Partecipante",
+        "Sessione",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività svolta"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "Carta in movimento",
+          "12/05/2026",
+          "09:02",
+          "11:58",
+          "Piegature e collage"
+        ],
+        [
+          "Vela",
+          "Carta in movimento",
+          "12/05/2026",
+          "09:05",
+          "12:01",
+          "Composizione di forme"
+        ],
+        [
+          "Nubi",
+          "Piccoli circuiti",
+          "13/05/2026",
+          "09:11",
+          "—",
+          "Assemblaggio di componenti"
+        ],
+        [
+          "Riva",
+          "Piccoli circuiti",
+          "13/05/2026",
+          "09:08",
+          "12:04",
+          "Prove di conduzione"
+        ],
+        [
+          "Timo",
+          "Colori e texture",
+          "14/05/2026",
+          "—",
+          "—",
+          "—"
+        ],
+        [
+          "Piuma",
+          "Carta in movimento",
+          "12/05/2026",
+          "09:14",
+          "11:55",
+          "Disegno e ritaglio"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Sessione",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività svolta"
+      ]
+    },
+    {
+      "id": "sessioni",
+      "title": "Sessioni del laboratorio",
+      "description": "Gestisci il calendario delle attività e consulta le presenze associate a ogni sessione.",
+      "metrics": [
+        {
+          "label": "Sessioni totali",
+          "value": "3"
+        },
+        {
+          "label": "Sessioni concluse",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Sessione",
+        "Data",
+        "Fascia oraria",
+        "Spazio",
+        "Responsabile",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Carta in movimento",
+          "12/05/2026",
+          "09:00–12:00",
+          "Sala Loto",
+          "Mira",
+          "Conclusa"
+        ],
+        [
+          "Piccoli circuiti",
+          "13/05/2026",
+          "09:00–12:00",
+          "Sala Prisma",
+          "Tavi",
+          "In corso"
+        ],
+        [
+          "Colori e texture",
+          "14/05/2026",
+          "09:00–12:00",
+          "Sala Loto",
+          "Neri",
+          "In programma"
+        ]
+      ],
+      "form": [
+        "Sessione",
+        "Data",
+        "Fascia oraria",
+        "Spazio",
+        "Responsabile",
+        "Stato"
+      ]
+    }
+  ]
+}
